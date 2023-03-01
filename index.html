@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Code Chella | Challenge I - Front-end 2023</title>
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html"><img class="logo" src="./assets/Logo1 1.svg" alt=""></a>
+        <nav class="nav">
+            <button class="menu-hamburguer" id="btn-mobile"><span id="hamburguer"></span></button>
+            <div class="menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A experiência</a>
+                        <span class="barra-mobile"><img src="./assets/Line 4.svg" alt=""></span>
+                        <span class="barra-animada"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mapa de Setores</a>
+                        <span class="barra-mobile"><img src="./assets/Line 4.svg" alt=""></span>
+                        <span class="barra-animada"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Informações</a>
+                        <span class="barra-mobile"><img src="./assets/Line 4.svg" alt=""></span>
+                        <span class="barra-animada"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ingresso</a>
+                        <span class="barra-mobile"><img src="./assets/Line 4.svg" alt=""></span>
+                        <span class="barra-animada"></span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <h2 class="banner-texto">Boas-vindas ao<br>#CodeChella2023!</h2>
+    </section>
+    <script src="./menu-mobile.js"></script>
+    <section class="informacoes-principal">
+        <figure class="foto-banda">
+            <img class="img-mobile" src="./assets/Homepage-mobile.svg" alt="">
+            <img class="img-desktop" src="./assets/Homepage-desktop-tablet.svg" alt="">
+        </figure>
+        <article class="informacoes-principal__texto">
+            <h2 class="informacoes-principal__titulo">< 11 e 12 de Março ><br>Aluródromo de São Paulo</h2>
+            <p class="informacoes-principal__descricao">Hora de programar nossa memória com novas lembranças! Uma nova experiência sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!</p>
+                <a class="botao-ingresso" href="#">Comprar Ingresso!
+                <img class="img-ingresso" src="./assets/local_activity.svg" alt="">
+            </a>
+        </article>
+    </section>
+    <section class="line-up">
+        <h2 class="line-up__titulo">/Line-Up/</h2>
+        <div class="div-data">
+            <span class="barra"></span>
+            <h3 class="data">Sábado <11/03></h3>
+            <span class="barra"></span>
+        </div>
+        <article class="lista-data">
+            <ul class="lista1">
+                <li class="lista-banda">System of a DOM</li>
+            </ul>
+            <ul class="lista2">
+            <li class="lista-banda">Python Maiden</li>
+            <li class="lista-banda">Apollo Client 2001</li>
+            <li class="lista-banda">Bon Java</li>
+            <li class="lista-banda">NickCallback</li>
+            </ul>
+            <ul class="lista3">
+                <li class="lista-banda">Linkin Promises</li>
+                <li class="lista-banda">Fullstack Fighters</li>
+                <li class="lista-banda">Papa React</li>
+                <li class="lista-banda">Angular in Chains</li>
+            </ul>
+            <ul class="lista4">
+                <li class="lista-banda">Agnostic Front-end</li>
+                <li class="lista-banda">SlipkNode</li>
+                <li class="lista-banda">Pink Flutter</li>
+                <li class="lista-banda">Kiss</li>
+            </ul>
+        </article>
+        <div class="div-data">
+            <span class="barra"></span>
+            <h3 class="data">Domingo <12/03></h3>
+            <span class="barra"></span>
+        </div>
+        <article class="lista-data">
+            <ul class="lista1">
+                <li class="lista-banda">Lana Del Ploy</li>
+            </ul>
+            <ul class="lista2">
+                <li class="lista-banda">Dua Lib</li>
+                <li class="lista-banda">The Backnd</li>
+                <li class="lista-banda">CSS Styles</li>
+                <li class="lista-banda">ArrayAna Grande</li>
+                <li class="lista-banda">DJ Query</li>
+            </ul>
+            <ul class="lista3">
+                <li class="lista-banda">Miley Cypress</li>
+                <li class="lista-banda">The Bootstrap Boys</li>
+                <li class="lista-banda">Json Derulo</li>
+                <li class="lista-banda">CloudPlay</li>
+                <li class="lista-banda">Dev Lovato</li>
+            </ul>
+            <ul class="lista4">
+                <li class="lista-banda">Kylie MiLOG</li>
+                <li class="lista-banda">Jenkins Brothers</li>
+                <li class="lista-banda">Rubycat Dolls</li>
+            </ul>
+        </article>
+        <figure class="img-line-up-final">
+        </figure>
+    </section>
+    <footer class="rodape">
+        <div class="rodape-container">
+        <img class="rodape-logo" src="./assets/logo-rodape.svg" alt="">
+        <article class="contatos">
+            <h3 class="rodape-texto">Acesse nossas redes:</h3>
+            <ul class="lista-redes">
+                <li class="lista-redes__items"><a href="#" class="lista-links"><img src="./assets/whatsapp-icon.svg" alt="" class="lista-icones"></a></li>
+                <li class="lista-redes__items"><a href="#" class="lista-links"><img src="./assets/twitch-icon.svg" alt="" class="lista-icones"></a></li>
+                <li class="lista-redes__items"><a href="#" class="lista-links"><img src="./assets/insta-icon.svg" alt="" class="lista-icones"></a></li>
+                <li class="lista-redes__items"><a href="#" class="lista-links"><img src="./assets/twitter-icon.svg" alt="" class="lista-icones"></a></li>
+            </ul>
+        </article>
+        </div>
+        <div class="rodape-container">
+            <h3 class="rodape-texto">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</h3>
+        </div>
+    </footer>
+</body>
+</html>
